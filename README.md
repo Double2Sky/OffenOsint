@@ -105,7 +105,7 @@ This virtual machine image is intended for open source offensive reconnaissance.
 - Aleph Data Desktop
 - Visual Studio Code
 - Dockstation
-- Irisium-Browser - the panel has a set of related tabs
+- Iridium-Browser - the panel has a set of related tabs
 - Tor-Browser
 ## Terminals: Guake and QTerminal
 
