@@ -2,7 +2,8 @@
 ##### Format .OVA / VirtualBox
 ##### About 11.3 Gb
 This virtual machine image is intended for open source offensive reconnaissance. The iso image of the kali linux NetInstall operating system is taken as a basis. Other required packages were installed manually. The image includes the following packages.
-## From the native repository:
++ Review:https://codeby.net/media/obzor-sborki-osint-dlja-razvedki-v-seti.173/
+# From the native repository:
 - dnsenum
 - dnsmap
 - dnsrecon
