@@ -3,6 +3,8 @@
 ##### About 11.3 Gb
 This virtual machine image is intended for open source offensive reconnaissance. The iso image of the kali linux NetInstall operating system is taken as a basis. Other required packages were installed manually. The image includes the following packages.
 + Review:https://codeby.net/media/obzor-sborki-osint-dlja-razvedki-v-seti.173/
+- Ver 1.0 https://drive.google.com/file/d/1TNskYu8AyXPTaE7twb4jdRRQQPprLUl5/view?usp=sharing osint / 22
+- Ver 2.0 https://yadi.sk/d/rosAsOUMKodM9w root / 22
 # From the native repository:
 - dnsenum
 - dnsmap
@@ -123,6 +125,16 @@ This virtual machine image is intended for open source offensive reconnaissance.
 + Password: 22
 + https://drive.google.com/file/d/1TNskYu8AyXPTaE7twb4jdRRQQPprLUl5/view?usp=sharing 
 
+Machine update, tools added:
+- OSINT-SAN.
+- Parse Hub
+- YaSeeker.
+- Open Semantic Search. Containers already deployed, startup icon on top panel. Don't forget to start docker.service.
+- Working from root
++ Login: root
++ Password: 22 
++ https://yadi.sk/d/rosAsOUMKodM9w
+- Over 27 GB
 
 Run some tools In terminal:
 
