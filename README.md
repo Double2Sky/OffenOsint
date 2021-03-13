@@ -1,6 +1,6 @@
 ##### OffenOsint Virtual Machine
 ##### Format .OVA / VirtualBox
-##### About 11.3 Gb / 27 Gb
+##### About 11.3 Gb / 27 Gb / 13,5 Gb
 This virtual machine image is intended for open source offensive reconnaissance. The iso image of the kali linux NetInstall operating system is taken as a basis. Other required packages were installed manually. The image includes the following packages.
 + Review:https://codeby.net/media/obzor-sborki-osint-dlja-razvedki-v-seti.173/
 - Ver 1.0 https://drive.google.com/file/d/1TNskYu8AyXPTaE7twb4jdRRQQPprLUl5/view?usp=sharing osint / 22
@@ -113,7 +113,7 @@ This virtual machine image is intended for open source offensive reconnaissance.
 - Tor-Browser
 ## Terminals: Guake and QTerminal
 
-## Also pay attention to the aliases in ~ / .zshrc
+## Also pay attention to the aliases in ~ /.zshrc
 - alias py = 'python'
 - alias py3 = 'python3'
 - alias uu = 'apt update && apt upgrade -y'
@@ -126,16 +126,32 @@ This virtual machine image is intended for open source offensive reconnaissance.
 + Password: 22
 + https://drive.google.com/file/d/1TNskYu8AyXPTaE7twb4jdRRQQPprLUl5/view?usp=sharing 
 
-Machine update, tools added:
+Machine update, tools added (V2):
 - OSINT-SAN.
 - Parse Hub
 - YaSeeker.
 - Open Semantic Search. Containers already deployed, startup icon on top panel. Don't forget to start docker.service.
 - Working from root
+
 + Login: root
 + Password: 22 
 + https://yadi.sk/d/rosAsOUMKodM9w
 - Over 27 GB
+
+Machine update, tools added (V3):
+- Legion
+- sn1per
+- Reconftw
+- WikiLeaker
+- Spiderpig
+- Gitleaks
+- Getallurls
+- Metasploit-Framework
+
++ Login: root
++ Password: 22 
++ https://drive.google.com/file/d/1st3tA6RsdhwlR8-DmuRTWYo4JCfQoUdJ/view?usp=sharing
+- Over 13.5 Gb
 
 Run some tools In terminal:
 
@@ -162,6 +178,12 @@ Run some tools In terminal:
 	namechk #username
 	nicknamefinder
 	seosint #domain
+	osint -h
+	snoop -h
+	sitedorks -h
+	wiki
+	spiderpig
+	reconftw
 
 	r3con1z3r -h
 	raccoon -h
@@ -173,31 +195,31 @@ Run some tools In terminal:
 	lazygrandma -h
 	maigret #nickname
 
-	cd ~/OsintTools/53R3N17Y
+	cd ~/opt/53R3N17Y
 	./serenity --help
 
-	cd ~/OsintTools/deluxe
+	cd ~/opt/deluxe
 	python3 deluxe.py -h
 
-	cd ~/OsintTools/FinalRecon
+	cd ~/opt/FinalRecon
 	python3 finalrecon.py -h
 
-	cd ~/OsintTools/scriptnOsint
+	cd ~/opt/scriptnOsint
 	./osint -h
 
-	cd ~/OsintTools/snoop/
+	cd ~/opt/snoop/
 	snoop -h
 
-	cd ~/OsintTools/sitedorks/
+	cd ~/opt/sitedorks/
 	python3 sitedorks.py -h
 
-	cd ~/OsintTools/URLextractor/
+	cd ~/opt/URLextractor/
 	./extractor -H
 
 	docker pull simplysecurity/simplyemail
 	docker run --rm -ti simplysecurity/simplyemail -h
 
-	cd ~/OsintTools/social-analyzer
+	cd ~/opt/social-analyzer
 	sudo docker build -t social-analyzer . && sudo docker run -p 9005:9005 -it social-analyzer
 
 	export PORT=80
@@ -207,5 +229,5 @@ Run some tools In terminal:
 	docker pull jas9reet/grawler
 	docker run -d -p 8080:80 jas9reet/grawler
 
-	cd ~/OsintTools/iKy
+	cd ~/opt/iKy
 	docker-compose up --build
