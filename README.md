@@ -153,6 +153,9 @@ Machine update, tools added (V3):
 + https://drive.google.com/file/d/1st3tA6RsdhwlR8-DmuRTWYo4JCfQoUdJ/view?usp=sharing
 - Over 13.5 Gb
 
+For update some tools in terminal:
+- # powerup
+
 Run some tools In terminal:
 
 	zen -h
