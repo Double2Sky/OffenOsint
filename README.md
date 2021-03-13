@@ -5,6 +5,7 @@ This virtual machine image is intended for open source offensive reconnaissance.
 + Review:https://codeby.net/media/obzor-sborki-osint-dlja-razvedki-v-seti.173/
 - Ver 1.0 https://drive.google.com/file/d/1TNskYu8AyXPTaE7twb4jdRRQQPprLUl5/view?usp=sharing osint / 22
 - Ver 2.0 https://yadi.sk/d/XudZVwmh861DZw root / 22
+- Ver 3.0 https://drive.google.com/file/d/1st3tA6RsdhwlR8-DmuRTWYo4JCfQoUdJ/view?usp=sharing root / 22
 # From the native repository:
 - dnsenum
 - dnsmap
