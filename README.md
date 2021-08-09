@@ -16,7 +16,6 @@ This virtual machine image is intended for open source offensive reconnaissance.
 - sslyze
 - dmitry
 - nikto
-- macchanger
 ## Additionally installed is the Argos script https://github.com/SOsintOps/Argos which includes many useful tools for open source intelligence:
 - Amass
 - Sublist3r
@@ -34,21 +33,20 @@ This virtual machine image is intended for open source offensive reconnaissance.
 - Twint
 ## The most powerful and efficient tools have shortcuts located on the vertical panel:
 - badKarma
-- Ghost recon
+- GhostRecon
 - Phoneinfoga
 - Maryam
-- Magma osint
+- MagmaOsint
 - Cignotrack
 - DNSkron
-- Dork eye
-- Vaile
+- Dork-eye
 - TiDos-Framework
 - Red_Hawk
 - InfoSploit
-- Recon Spider
+- ReconSpider
 - Investigo
 - WhatsMyName
-## Other tools can be found in the ~ /OsintTools 
+## Other tools:
 - Serenity
 - Buster
 - deluxe
@@ -83,7 +81,7 @@ This virtual machine image is intended for open source offensive reconnaissance.
 - SiteBroker
 - Sitedorks
 - Snoop
-- Social-Analyzer
+/- Social-Analyzer
 - Striker
 - uDork
 - URLextractor
@@ -117,10 +115,6 @@ This virtual machine image is intended for open source offensive reconnaissance.
 - alias py = 'python'
 - alias py3 = 'python3'
 - alias uu = 'apt update && apt upgrade -y'
-- alias apt = 'sudo apt'
-- alias docker = 'sudo docker'
-- alias docker-compose = 'sudo docker-compose'
-- alias synaptic = 'sudo synaptic'
 
 + Login: osint
 + Password: 22
