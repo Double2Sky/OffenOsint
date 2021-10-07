@@ -119,7 +119,7 @@ This virtual machine image is intended for open source offensive reconnaissance.
 
 + Login: osint
 + Password: 22
-+ https://drive.google.com/file/d/1TNskYu8AyXPTaE7twb4jdRRQQPprLUl5/view?usp=sharing 
+
 
 Machine update, tools added (V2):
 - OSINT-SAN.
@@ -130,7 +130,6 @@ Machine update, tools added (V2):
 
 + Login: root
 + Password: 22 
-+ https://yadi.sk/d/rosAsOUMKodM9w
 - Over 27 GB
 
 Machine update, tools added (V3):
@@ -145,7 +144,6 @@ Machine update, tools added (V3):
 
 + Login: root
 + Password: 22 
-+ https://drive.google.com/file/d/1st3tA6RsdhwlR8-DmuRTWYo4JCfQoUdJ/view?usp=sharing
 - Over 13.5 Gb
 
 For update some tools in terminal:
